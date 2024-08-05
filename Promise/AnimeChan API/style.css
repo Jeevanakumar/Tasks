@@ -1,0 +1,78 @@
+.row {
+    justify-content: center;
+    padding-top: 3rem;
+  }
+  
+  .card {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .email-checker {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .email-input {
+    width: 70%;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+  }
+  .card-body #advice-quote,
+  .card-body #anime-quote {
+    width: 45%;
+  }
+  #advice-quote {
+    background-color: aquamarine;
+    border-radius: 2rem;
+    padding: 1rem;
+  }
+  
+  #anime-quote {
+    background-color: rgb(218, 255, 255);
+    padding: 1rem;
+    border-radius: 2rem;
+  }
+  #characterQuote {
+    background-color: rgb(255, 242, 242);
+  }
+  #characterName {
+    background-color: rgb(201, 201, 236);
+  }
+  #animeName {
+    background-color: rgb(186, 229, 186);
+  }
+  #advice-title,
+  #anime-title,
+  #validation-title {
+    background-color: grey;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+  #validation-result {
+    background-color: antiquewhite;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+      
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      
+      align-items: center;
+    }
+    .card-body #advice-quote,
+    .card-body #anime-quote {
+      width: 100%;
+      margin: 1rem;
+    }
+  }
