@@ -1,0 +1,11 @@
+TASK DETAILS:
+Design a Pagination in DOM manipulation.
+Create the needed HTML elements using DOM.
+Use only CSS for the design.
+Usage of any deprecated tags is not allowed to be created in DOM.
+
+
+USAGE:
+Sample URL: https://gist.github.com/rvsp/add40254aa126f045837fa5b51f47f1f
+Reference: https://raw.githubusercontent.com/Rajavasanthan/jsondata/master/pagenation.json
+
