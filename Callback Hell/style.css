@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: rgba(236, 120, 207, 0.875);
+  }
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin: 250px auto;
+  }
